@@ -71,7 +71,7 @@ with st.container():
     col1, col2, col3 = st.columns(3)
     with col1:
         f1_s = st.date_input("အချုပ်တွင်ပြစ်ဒဏ်စတင်ကျခံသည့်ရက်စွဲ", datetime(2024, 1, 1), key="f1s")
-        f1_e = st.date_input("	အချုပ်တွင်ပြစ်ဒဏ်ကျခံမှု ပြီးဆုံးသည့်ရက်စွဲ", datetime(2024, 2, 1), key="f1e")
+        f1_e = st.date_input("အချုပ်တွင်ပြစ်ဒဏ်ကျခံမှု ပြီးဆုံးသည့်ရက်စွဲ", datetime(2024, 2, 1), key="f1e")
     with col2:
         f2_s = st.date_input("‌ထောင်တွင်ပြစ်ဒဏ်စတင်ကျခံသည့်ရက်စွဲ", datetime(2024, 6, 1), key="f2s")
         f2_e = st.date_input("‌ထောင်တွင်ပြစ်ဒဏ်ကျခံမှု ပြီးဆုံးသည့်ရက်စွဲ", datetime(2024, 12, 31), key="f2e")
