@@ -70,14 +70,14 @@ with st.container():
     target = st.number_input("စုစုပေါင်း ကျခံရမည့်ပြစ်ဒဏ် (Target)", value=3650)
     col1, col2, col3 = st.columns(3)
     with col1:
-        f1_s = st.date_input("အချုပ်တွင်ပြစ်ဒဏ်စတင်ကျခံသည့်ရက်စွဲ", datetime(2024, 1, 1), key="f1s")
-        f1_e = st.date_input("	အချုပ်တွင်ပြစ်ဒဏ်ကျခံမှု ပြီးဆုံးသည့်ရက်စွဲ", datetime(2024, 2, 1), key="f1e")
+        f1_s = st.date_input("အချုပ်တွင်ပြစ်ဒဏ်စတင်ကျခံသည့်ရက်စွဲ", value=datetime(2024, 1, 1), key="f1s")
+        f1_e = st.date_input("အချုပ်တွင်ပြစ်ဒဏ်ကျခံမှု ပြီးဆုံးသည့်ရက်စွဲ", value=datetime(2024, 2, 1), key="f1e")
     with col2:
-        f2_s = st.date_input("‌ထောင်တွင်ပြစ်ဒဏ်စတင်ကျခံသည့်ရက်စွဲ", datetime(2024, 6, 1), key="f2s")
-        f2_e = st.date_input("‌ထောင်တွင်ပြစ်ဒဏ်ကျခံမှု ပြီးဆုံးသည့်ရက်စွဲ", datetime(2024, 12, 31), key="f2e")
+        f2_s = st.date_input("ထောင်တွင်ပြစ်ဒဏ်စတင်ကျခံသည့်ရက်စွဲ", value=datetime(2024, 6, 1), key="f2s")
+        f2_e = st.date_input("ထောင်တွင်ပြစ်ဒဏ်ကျခံမှု ပြီးဆုံးသည့်ရက်စွဲ", value=datetime(2024, 12, 31), key="f2e")
     with col3:
-        f3_s = st.date_input("ရဲဘက်စခန်းတွင် ပြစ်ဒဏ်စတင်ကျခံသည့် ရက်စွဲ", datetime(2025, 1, 1), key="f3s")
-        f3_e = st.date_input("ရဲဘက်စခန်းတွင် ပြစ်ဒဏ်ကျခံမှု ပြီးဆုံးသည့်ရက်စွဲ", datetime(2025, 3, 1), key="f3e")
+        f3_s = st.date_input("ရဲဘက်စခန်းတွင် ပြစ်ဒဏ်စတင်ကျခံသည့် ရက်စွဲ", value=datetime(2025, 1, 1), key="f3s")
+        f3_e = st.date_input("ရဲဘက်စခန်းတွင် ပြစ်ဒဏ်ကျခံမှု ပြီးဆုံးသည့်ရက်စွဲ", value=datetime(2025, 3, 1), key="f3e")
 
 # --- ၂။ Lucky Draws ---
 st.markdown("### 🎡 လွတ်ငြိမ်းသက်သာမှုပေးသည့်ရက်စွဲများ")
