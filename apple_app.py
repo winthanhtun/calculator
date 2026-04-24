@@ -25,7 +25,7 @@ st.markdown("""
         font-weight: bold;
     }
     [data-testid="stMetricValue"] {
-        color: #FFFFFF !important; /* ကိန်းဂဏန်းကို အဖြူရောင် */
+        color: #008000 !important; /* ကိန်းဂဏန်းကို အဖြူရောင် */
     }
 
     /* Info & Success Boxes */
